@@ -19,5 +19,7 @@ A modern weather application built with HTML, CSS and JavaScript.
 
   ## Live Demo
 https://arjetaademi.github.io/WeatherApp/
+
+
 ##Author 
 Arjeta Ademi
