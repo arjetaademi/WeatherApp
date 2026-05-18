@@ -22,4 +22,5 @@ https://arjetaademi.github.io/WeatherApp/
 
 
 ##Author 
+
 Arjeta Ademi
