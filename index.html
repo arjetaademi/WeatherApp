@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>MOTI</h1>
+    <p class="subtitle">PARASHIKIMI I MOTIT NË KOHË REALE</p>
+
+    <div class="search-box">
+      <input type="text" id="inputi" placeholder="Shkruaj qytetin...">
+      <button id="butoni">Kërko</button>
+    </div>
+
+    <div class="error" id="error">❌ Qyteti nuk u gjet!</div>
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      Duke kërkuar...
+    </div>
+
+    <div class="weather-card" id="karta">
+      <div class="city-row">
+        <div>
+          <div class="city-name" id="qyteti"></div>
+          <div class="country" id="shteti"></div>
+        </div>
+        <div class="weather-icon" id="ikona"></div>
+      </div>
+      <div class="temp-row">
+        <div class="temp" id="temperatura"></div>
+        <div class="feels-like" id="ndihet"></div>
+      </div>
+      <div class="description" id="pershkrimi"></div>
+      <div class="divider"></div>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-icon">💧</div>
+          <div class="stat-value" id="lageshti"></div>
+          <div class="stat-label">Lagështi</div>
+        </div>
+        <div class="stat">
+          <div class="stat-icon">💨</div>
+          <div class="stat-value" id="era"></div>
+          <div class="stat-label">Era</div>
+        </div>
+        <div class="stat">
+          <div class="stat-icon">👁️</div>
+          <div class="stat-value" id="dukshmeria"></div>
+          <div class="stat-label">Dukshmëria</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
