@@ -16,4 +16,8 @@ A modern weather application built with HTML, CSS and JavaScript.
 - Fetch API
 - Async/Await
 - OpenWeather API
-  
+
+  ## Live Demo
+https://arjetaademi.github.io/WeatherApp/
+##Author 
+Arjeta Ademi
